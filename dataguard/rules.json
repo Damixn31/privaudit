@@ -1,0 +1,30 @@
+[
+  {
+    "type": "Tarjeta de credito",
+    "pattern": "\\b(?:\\d{4}[- ]?){3}\\d{4}\\b"
+  },
+  {
+    "type": "Telefono Arg",
+    "pattern": "(?:\\+54\\s?9\\s?\\d{2}\\s?\\d{4}-?\\d{4})|(?:\\b11\\d{8}\\b)"
+  },
+  {
+    "type": "DNI",
+    "pattern": "\\b\\d{1,2}\\.\\d{3}\\.\\d{3}\\b"
+  },
+  {
+    "type": "SSN",
+    "pattern": "\\d{3}-\\d{2}-\\d{4}"
+  },
+  {
+    "type": "Email",
+    "pattern": "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}"
+  },
+  {
+    "type": "Dirección IP",
+    "pattern": "\\b(?:\\d{1,3}\\.){3}\\d{1,3}\\b"
+  },
+  {
+    "type": "JWT",
+    "pattern": "eyJ[A-Za-z0-9_-]+\\.[A-Za-z0-9_-]+\\.[A-Za-z0-9_-]+"
+  }
+]
